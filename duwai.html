@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .bg-image {
+            /* The image used */
+            background-image: url("/img/dubcul.webp");
+
+            /* Add the blur effect */
+            filter: blur(8px);
+            -webkit-filter: blur(8px);
+
+            /* Full height */
+            height: 100%;
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        /* Position text in the middle of the page/image */
+        .bg-text {
+            background-color: rgb(0, 0, 0);
+            /* Fallback color */
+            background-color: rgba(0, 0, 0, 0.4);
+            /* Black w/opacity/see-through */
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            border: 3px solid #f1f1f1;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+            width: 80%;
+            padding: 20px;
+            text-align: center;
+            border-radius: 20px;
+        }
+
+        .left img {
+            width: 200px;
+            align-items: first baseline;
+            border-radius: 20px;
+            border-style: solid;
+            border-color: red;
+        }
+
+        .write {
+            font-size: 15px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            text-align: center;
+        }
+
+        .bg2 {
+
+            /* The image used */
+            background-image: url("/img/dubcul.webp");
+
+            /* Add the blur effect */
+            filter: blur(8px);
+            -webkit-filter: blur(8px);
+
+            /* Full height */
+            height: 100%;
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .kanakdurga {
+            background-color: rgb(0, 0, 0);
+            /* Fallback color */
+            background-color: rgba(0, 0, 0, 0.4);
+            /* Black w/opacity/see-through */
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            border: 3px solid #f1f1f1;
+            position: absolute;
+            top: 120%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+            width: 80%;
+            padding: 20px;
+            text-align: center;
+            border-radius: 20px;
+        }
+
+        .bg3 {
+            /* The image used */
+            background-image: url("/img/dubcul.webp");
+
+            /* Add the blur effect */
+            filter: blur(8px);
+            -webkit-filter: blur(8px);
+
+            /* Full height */
+            height: 100%;
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .kalahasti {
+            background-color: rgb(0, 0, 0);
+            /* Fallback color */
+            background-color: rgba(0, 0, 0, 0.4);
+            /* Black w/opacity/see-through */
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            border: 3px solid #f1f1f1;
+            position: absolute;
+            top: 190%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+            width: 80%;
+            padding: 20px;
+            text-align: center;
+            border-radius: 20px;
+        }
+
+        .bg4 {
+            /* The image used */
+            background-image: url("/img/dubcul.webp");
+
+            /* Add the blur effect */
+            filter: blur(8px);
+            -webkit-filter: blur(8px);
+
+            /* Full height */
+            height: 100%;
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .simanchala {
+            background-color: rgb(0, 0, 0);
+            /* Fallback color */
+            background-color: rgba(0, 0, 0, 0.4);
+            /* Black w/opacity/see-through */
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            border: 3px solid #f1f1f1;
+            position: absolute;
+            top: 260%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+            width: 80%;
+            padding: 20px;
+            text-align: center;
+            border-radius: 20px;
+        }
+
+        .bg5 {
+            /* The image used */
+            background-image: url("/img/dubcul.webp");
+
+            /* Add the blur effect */
+            filter: blur(8px);
+            -webkit-filter: blur(8px);
+
+            /* Full height */
+            height: 100%;
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .bhadrachala {
+            background-color: rgb(0, 0, 0);
+            /* Fallback color */
+            background-color: rgba(0, 0, 0, 0.4);
+            /* Black w/opacity/see-through */
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            border: 3px solid #f1f1f1;
+            position: absolute;
+            top: 330%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+            width: 80%;
+            padding: 20px;
+            text-align: center;
+            border-radius: 20px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="bg-image"></div>
+    <!-- jagannath -->
+    <div class="bg-text">
+        <div class="left">
+            <img src="/img/dubaikrishna.jpg" alt="jagannath temple">
+        </div>
+        <div class="write">
+            <h1>Shree Krishna Haveli</h1>
+        </div>
+        <div class="para">
+            <p>Coming soon...</p>
+            <button class="btn"><a href="#">More</a></button>
+            <button><a href="map.html">Map</a></button>
+        </div>
+    </div>
+
+    <!-- kanak durga -->
+    <div class="bg2"></div>
+    <div class="kanakdurga">
+        <div class="left">
+            <img src="/img/dubshiva.jpg" alt="taratarini">
+        </div>
+        <div class="write">
+            <h1>Shiva Temple.</h1>
+        </div>
+        <div class="para">
+            <p>Coming soon... </p>
+            <button><a href="#">More</a></button>
+        </div>
+    </div>
+
+    <!-- lingaraj -->
+    <div class="bg3"></div>
+    <div class="kalahasti">
+        <div class="left">
+            <img src="/img/dubsaibaba.jpg" alt="lingaraj">
+        </div>
+        <div class="write">
+            <h1>Shirdi Sai Baba Temple</h1>
+        </div>
+        <div class="para">
+            <p>Coming soon... </p>
+            <button><a href="#">More</a></button>
+        </div>
+    </div>
+
+    <!-- Konark -->
+    <div class="bg4"></div>
+    <div class="simanchala">
+        <div class="left">
+            <img src="/img/dubaiguru.jpg" alt="konark">
+        </div>
+        <div class="write">
+            <h1>Sindhi Guru Darbar</h1>
+        </div>
+        <div class="para">
+            <p>The Guru Nanak Darbar is a Sikh gurdwara (place of worship) at Jebel Ali Village in Dubai, founded in 2012 to serve over 50,000 Sikh residents in the emirate.[1][2][3][4] The community-run gurdwara is the first official Sikh temple in the GCC region and the Middle East, and it was established by Surender Singh Kandhari, a resident of Dubai since 1976. </p>
+            <button><a href="dubguru.html">More</a></button>
+        </div>
+    </div>
+
+    <!-- Ghatatarini -->
+    <div class="bg5"></div>
+    <div class="bhadrachala">
+        <div class="left">
+            <img src="/img/dubjain.jpg" alt="ghatatarini">
+        </div>
+        <div class="write">
+            <h1>Dubai Jain Derasar</h1>
+        </div>
+        <div class="para">
+            <p>A sacred place that attracts lakhs of devotees from all over the world, it is the abode of Lord Rama (The
+                seventh incarnation of SriMahavishnu). This hill place which is encircled by holy river Godavari flowing
+                towards southern direction is the famous shrine Bhadrachalam-The name derived from Bhadragiri (Mountain
+                of Bhadra-a boon child of Meru and Menaka).</p>
+            <button><a href="bhadrachala.html">More</a></button>
+        </div>
+    </div>
+
+</body>
+</html>

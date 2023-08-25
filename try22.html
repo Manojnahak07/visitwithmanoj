@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #wrapper { 
+    width: 920px; 
+    height: 350px; 
+    margin: 0 auto; 
+} 
+
+#home1 { 
+    width: 400px; 
+    height: 300px; 
+    float: left; 
+} 
+
+#home2 { 
+    width: 400px; 
+    height: 300px; 
+    float: right; 
+}
+
+@media (max-width:767px) {
+    .home1 {
+        position: relative;
+        padding-bottom: 56.25%; /* 16/9 ratio */
+        padding-top: 30px; /* IE6 workaround*/
+        height: 0;
+        overflow: hidden;
+    }
+    .home2 {
+        margin-left: 0;
+    }
+}
+    </style>
+</head>
+<body>
+    
+    <div id="wrapper"> 
+        <div id="home1">
+         <img width="400" height="300" src="img/"> 
+            
+        </img>
+        </div>
+        <div id="home2">
+         <video width="400" height="300" poster="images/video.jpg" controls="controls" preload="none"> 
+           <source type="video/mp4" src="img/indtraditional.mp4" /> 
+         </video>
+        </div> 
+      </div>
+</body>
+</html>

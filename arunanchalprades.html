@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .bg-image {
+            /* The image used */
+            background-image: url("/img/arunanchalprades.jpg");
+
+            /* Add the blur effect */
+            filter: blur(8px);
+            -webkit-filter: blur(8px);
+
+            /* Full height */
+            height: 100%;
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+
+        }
+
+        /* Position text in the middle of the page/image */
+        .bg-text {
+            background-color: rgb(0, 0, 0);
+            /* Fallback color */
+            background-color: rgba(0, 0, 0, 0.4);
+            /* Black w/opacity/see-through */
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            border: 3px solid #f1f1f1;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+            width: 80%;
+            padding: 20px;
+            text-align: center;
+            border-radius: 20px;
+        }
+
+        .left img {
+            width: 200px;
+            align-items: first baseline;
+            border-radius: 20px;
+            border-style: solid;
+            border-color: red;
+        }
+
+        .write {
+            font-size: 15px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            text-align: center;
+        }
+
+        .bg2 {
+
+            /* The image used */
+            background-image: url("/img/arunanchalprades.jpg");
+
+            /* Add the blur effect */
+            filter: blur(8px);
+            -webkit-filter: blur(8px);
+
+            /* Full height */
+            height: 100%;
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+
+        }
+
+        .gompa {
+            background-color: rgb(0, 0, 0);
+            /* Fallback color */
+            background-color: rgba(0, 0, 0, 0.4);
+            /* Black w/opacity/see-through */
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            border: 3px solid #f1f1f1;
+            position: absolute;
+            top: 120%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+            width: 80%;
+            padding: 20px;
+            text-align: center;
+            border-radius: 20px;
+        }
+
+        .bg3 {
+            /* The image used */
+            background-image: url("/img/arunanchalprades.jpg");
+
+            /* Add the blur effect */
+            filter: blur(8px);
+            -webkit-filter: blur(8px);
+
+            /* Full height */
+            height: 100%;
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+
+        }
+
+        .urgelling {
+            background-color: rgb(0, 0, 0);
+            /* Fallback color */
+            background-color: rgba(0, 0, 0, 0.4);
+            /* Black w/opacity/see-through */
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            border: 3px solid #f1f1f1;
+            position: absolute;
+            top: 190%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+            width: 80%;
+            padding: 20px;
+            text-align: center;
+            border-radius: 20px;
+        }
+
+        .bg4 {
+            /* The image used */
+            background-image: url("/img/arunanchalprades.jpg");
+
+            /* Add the blur effect */
+            filter: blur(8px);
+            -webkit-filter: blur(8px);
+
+            /* Full height */
+            height: 100%;
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+
+        }
+
+        .gorsam {
+            background-color: rgb(0, 0, 0);
+            /* Fallback color */
+            background-color: rgba(0, 0, 0, 0.4);
+            /* Black w/opacity/see-through */
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            border: 3px solid #f1f1f1;
+            position: absolute;
+            top: 260%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+            width: 80%;
+            padding: 20px;
+            text-align: center;
+            border-radius: 20px;
+        }
+
+        .bg5 {
+            /* The image used */
+            background-image: url("/img/arunanchalprades.jpg");
+
+            /* Add the blur effect */
+            filter: blur(8px);
+            -webkit-filter: blur(8px);
+
+            /* Full height */
+            height: 100%;
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+
+        }
+
+        .taktasanga {
+            background-color: rgb(0, 0, 0);
+            /* Fallback color */
+            background-color: rgba(0, 0, 0, 0.4);
+            /* Black w/opacity/see-through */
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            border: 3px solid #f1f1f1;
+            position: absolute;
+            top: 330%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+            width: 80%;
+            padding: 20px;
+            text-align: center;
+            border-radius: 20px;
+        }
+
+        .bg6 {
+            /* The image used */
+            background-image: url("/img/arunanchalprades.jpg");
+
+            /* Add the blur effect */
+            filter: blur(8px);
+            -webkit-filter: blur(8px);
+
+            /* Full height */
+            /* height: 40%; */
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+          
+
+        }
+
+        .parusuram {
+            background-color: rgb(0, 0, 0);
+            /* Fallback color */
+            background-color: rgba(0, 0, 0, 0.4);
+            /* Black w/opacity/see-through */
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            border: 3px solid #f1f1f1;
+            position: absolute;
+            top: 400%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+            width: 80%;
+            padding: 20px;
+            text-align: center;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg-image"></div>
+    <!-- jagannath -->
+    <div class="bg-text">
+        <div class="left">
+            <img src="/img/tawang.jpg" alt="jagannath temple">
+        </div>
+        <div class="write">
+            <h1>Tawang Monastery, Tawang</h1>
+        </div>
+        <div class="para">
+            <p>Tawang Monastery, located in Tawang city of Tawang district in the Indian state of Arunachal Pradesh, isthe largest monastery in India. It is situated in the valley of the Tawang Chu, near the small town ofthe same name in the northwestern part of Arunachal Pradesh, in close proximity to the Chinese andBhutanese border.</p>
+            <button class="btn"><a href="venketeswar.html">More</a></button>
+            <button><a href="tawang.html">Map</a></button>
+        </div>
+    </div>
+
+    <!-- kanak durga -->
+    <div class="bg2"></div>
+    <div class="gompa">
+        <div class="left">
+            <img src="/img/gompa.jpg" alt="taratarini">
+        </div>
+        <div class="write">
+            <h1>GRL Gompa Monastery, Bomdila</h1>
+        </div>
+        <div class="para">
+            <p>The GRL (Gentse Gaden Rabgyel Ling)Gompa Monastery is located in Bomdila, the headquarters of the west Kameng district in Arunachal Pradesh, It is about 160 km from Guwahati, the capital city of Assam.It is Built in 1965-66 and built by 12th reincarnate of Tsona Gontse Rinpoche.</p>
+            <button><a href="gompa.html">More</a></button>
+        </div>
+    </div>
+
+    <!-- lingaraj -->
+    <div class="bg3"></div>
+    <div class="urgelling">
+        <div class="left">
+            <img src="/img/urgelling.webp" alt="lingaraj">
+        </div>
+        <div class="write">
+            <h1>Urgelling Monastery</h1>
+        </div>
+        <div class="para">
+            <p>Urgelling Gompa is at a distance of around 3 kms from Tawang Township and is reckoned to be the the birthplace of the 6th Dalai Lama, Tsangyang Tashi.</p>
+            <button><a href="urgelling.html">More</a></button>
+        </div>
+    </div>
+
+    <!-- Konark -->
+    <div class="bg4"></div>
+    <div class="gorsam">
+        <div class="left">
+            <img src="/img/gorsam.jpg" alt="konark">
+        </div>
+        <div class="write">
+            <h1>Gorsam Chorten, Tawang</h1>
+        </div>
+        <div class="para">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos corporis quibusdam incidunt laborum ducimus beatae consectetur aliquam laboriosam quae. Molestiae exercitationem fugiat reiciendis quod natus rerum excepturi autem nesciunt sequi.</p>
+            <button><a href="#">More</a></button>
+        </div>
+    </div>
+
+    <!-- Ghatatarini -->
+    <div class="bg5"></div>
+    <div class="taktasanga">
+        <div class="left">
+            <img src="/img/taktasanga.jpg" alt="ghatatarini">
+        </div>
+        <div class="write">
+            <h1>Taktsang Gompa, Tawang</h1>
+        </div>
+        <div class="para">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, dignissimos. Pariatur itaque, perferendis ipsum ut consequatur dolorem reiciendis praesentium. Voluptas numquam id dolor voluptatibus! Ullam dolores eos ea minima repellat.</p>
+            <button><a href="#">More</a></button>
+        </div>
+    </div>
+    <!-- CuttackChandi -->
+    <div class="bg6"></div>
+    <div class="parusuram">
+        <div class="left">
+            <img src="/img/parusuram.jpg" alt="cuttackchandi">
+        </div>
+        <div class="write">
+            <h1>Parasuram Kund temple</h1>
+        </div>
+        <div class="para">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam necessitatibus tempora sapiente esse odio dignissimos itaque ut quaerat? Libero earum cupiditate obcaecati quia quod praesentium sunt neque inventore quasi vitae?</p>
+            <button><a href="#">More</a></button>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,600 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      height: 100%;
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .bg-image {
+      background-image: url("/img/biharculbg.jpg");
+      filter: blur(8px);
+      -webkit-filter: blur(8px);
+      height: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+
+    /* Position text in the middle of the page/image */
+    .bg-text {
+      background-color: rgb(0, 0, 0);
+      background-color: rgba(0, 0, 0, 0.4);
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      border: 3px solid #f1f1f1;
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      width: 72%;
+      padding: 20px;
+      text-align: center;
+      border-radius: 20px;
+    }
+
+    .left img {
+      width: 200px;
+      align-items: first baseline;
+      border-radius: 20px;
+      border-style: solid;
+      border-color: red;
+    }
+
+    .write {
+      font-size: 15px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      text-align: center;
+    }
+
+    .bg2 {
+
+      /* The image used */
+      background-image: url("/img/biharculbg.jpg");
+
+      /* Add the blur effect */
+      filter: blur(8px);
+      -webkit-filter: blur(8px);
+
+      /* Full height */
+      height: 100%;
+
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+
+
+    }
+
+    .taratarini {
+      background-color: rgb(0, 0, 0);
+      /* Fallback color */
+      background-color: rgba(0, 0, 0, 0.4);
+      /* Black w/opacity/see-through */
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      border: 3px solid #f1f1f1;
+      position: absolute;
+      top: 130%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      width: 72%;
+      padding: 20px;
+      text-align: center;
+      border-radius: 20px;
+    }
+
+
+    .bg3 {
+      /* The image used */
+      background-image: url("/img/biharculbg.jpg");
+
+      /* Add the blur effect */
+      filter: blur(8px);
+      -webkit-filter: blur(8px);
+
+      /* Full height */
+      height: 100%;
+
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+
+    }
+
+    .lingaraj {
+      background-color: rgb(0, 0, 0);
+      /* Fallback color */
+      background-color: rgba(0, 0, 0, 0.4);
+      /* Black w/opacity/see-through */
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      border: 3px solid #f1f1f1;
+      position: absolute;
+      top: 218%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      width: 72%;
+      padding: 20px;
+      text-align: center;
+      border-radius: 20px;
+    }
+
+    .bg4 {
+      /* The image used */
+      background-image: url("/img/biharculbg.jpg");
+
+      /* Add the blur effect */
+      filter: blur(8px);
+      -webkit-filter: blur(8px);
+
+      /* Full height */
+      height: 100%;
+
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+
+    }
+
+    .konark {
+      background-color: rgb(0, 0, 0);
+      /* Fallback color */
+      background-color: rgba(0, 0, 0, 0.4);
+      /* Black w/opacity/see-through */
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      border: 3px solid #f1f1f1;
+      position: absolute;
+      top: 295%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      width: 72%;
+      padding: 20px;
+      text-align: center;
+      border-radius: 20px;
+    }
+
+    .bg5 {
+      /* The image used */
+      background-image: url("/img/biharculbg.jpg");
+
+      /* Add the blur effect */
+      filter: blur(8px);
+      -webkit-filter: blur(8px);
+
+      /* Full height */
+      height: 100%;
+
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+
+    }
+
+    .ghatatarini {
+      background-color: rgb(0, 0, 0);
+      /* Fallback color */
+      background-color: rgba(0, 0, 0, 0.4);
+      /* Black w/opacity/see-through */
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      border: 3px solid #f1f1f1;
+      position: absolute;
+      top: 365%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      width: 72%;
+      padding: 20px;
+      text-align: center;
+      border-radius: 20px;
+    }
+
+    .bg6 {
+      /* The image used */
+      background-image: url("/img/biharculbg.jpg");
+
+      /* Add the blur effect */
+      filter: blur(8px);
+      -webkit-filter: blur(8px);
+
+      /* Full height */
+      /* height: 100%;  */
+
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+
+    }
+
+    .Cuttackchandi {
+      background-color: rgb(0, 0, 0);
+      /* Fallback color */
+      background-color: rgba(0, 0, 0, 0.4);
+      /* Black w/opacity/see-through */
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      border: 3px solid #f1f1f1;
+      position: absolute;
+      top: 442%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      width: 72%;
+      padding: 20px;
+      text-align: center;
+      border-radius: 20px;
+      background-attachment: fixed;
+
+    }
+
+    /* For desktop: */
+    /* .col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;} */
+    /* Media Query */
+    @media only screen and (max-width:390px) {
+      body {
+        height: 100%;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .bg-text {
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.4);
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        border: 3px solid #f1f1f1;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        width: 72%;
+        padding: 20px;
+        text-align: center;
+        border-radius: 20px;
+      }
+
+      .left img {
+        width: 50px;
+        align-items: first baseline;
+        border-radius: 8px;
+        border-style: solid;
+        border-color: red;
+      }
+
+      .write {
+        font-size: 10px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: center;
+      }
+    }
+
+    @media only screen and (max-width:390px) {
+      body {
+        height: 100%;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .bg2 {
+        background-image: url("/img/biharculbg.jpg");
+        filter: blur(8px);
+        -webkit-filter: blur(8px);
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+
+
+      }
+
+      .taratarini {
+        background-color: rgb(0, 0, 0);
+        /* Fallback color */
+        background-color: rgba(0, 0, 0, 0.4);
+        /* Black w/opacity/see-through */
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        border: 3px solid #f1f1f1;
+        position: absolute;
+        top: 135%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        width: 72%;
+        padding: 20px;
+        text-align: center;
+        border-radius: 20px;
+      }
+      .left img {
+        width: 50px;
+        align-items: first baseline;
+        border-radius: 8px;
+        border-style: solid;
+        border-color: red;
+      }
+
+      .write {
+        font-size: 10px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: center;
+      }
+  
+
+    .konark {
+      background-color: rgb(0, 0, 0);
+      /* Fallback color */
+      background-color: rgba(0, 0, 0, 0.4);
+      /* Black w/opacity/see-through */
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      border: 3px solid #f1f1f1;
+      position: absolute;
+      top: 290%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      width: 72%;
+      padding: 20px;
+      text-align: center;
+      border-radius: 20px;
+    }
+    .ghatatarini {
+      background-color: rgb(0, 0, 0);
+      /* Fallback color */
+      background-color: rgba(0, 0, 0, 0.4);
+      /* Black w/opacity/see-through */
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      border: 3px solid #f1f1f1;
+      position: absolute;
+      top: 365%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      width: 72%;
+      padding: 20px;
+      text-align: center;
+      border-radius: 20px;
+    }
+    .Cuttackchandi {
+      background-color: rgb(0, 0, 0);
+      /* Fallback color */
+      background-color: rgba(0, 0, 0, 0.4);
+      /* Black w/opacity/see-through */
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      border: 3px solid #f1f1f1;
+      position: absolute;
+      top: 430%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      width: 72%;
+      padding: 20px;
+      text-align: center;
+      border-radius: 20px;
+      background-attachment: fixed;
+
+    }
+
+    }
+    @media only screen and (min-width:390px) and (max-width:450px){
+      body {
+        height: 100%;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .bg-text {
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.4);
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        border: 3px solid #f1f1f1;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        width: 72%;
+        padding: 20px;
+        text-align: center;
+        border-radius: 20px;
+      }
+
+      .left img {
+        width: 200px;
+        align-items: first baseline;
+        border-radius: 8px;
+        border-style: solid;
+        border-color: red;
+      }
+
+      .write {
+        font-size: 15px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: center;
+      }
+    }
+    
+  
+
+    .konark {
+      background-color: rgb(0, 0, 0);
+      /* Fallback color */
+      background-color: rgba(0, 0, 0, 0.4);
+      /* Black w/opacity/see-through */
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      border: 3px solid #f1f1f1;
+      position: absolute;
+      top: 300%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      width: 72%;
+      padding: 20px;
+      text-align: center;
+      border-radius: 20px;
+    }
+    .ghatatarini {
+      background-color: rgb(0, 0, 0);
+      /* Fallback color */
+      background-color: rgba(0, 0, 0, 0.4);
+      /* Black w/opacity/see-through */
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      border: 3px solid #f1f1f1;
+      position: absolute;
+      top: 365%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      width: 72%;
+      padding: 20px;
+      text-align: center;
+      border-radius: 20px;
+    }
+    .Cuttackchandi {
+      background-color: rgb(0, 0, 0);
+      /* Fallback color */
+      background-color: rgba(0, 0, 0, 0.4);
+      /* Black w/opacity/see-through */
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      border: 3px solid #f1f1f1;
+      position: absolute;
+      top: 430%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      width: 72%;
+      padding: 20px;
+      text-align: center;
+      border-radius: 20px;
+      background-attachment: fixed;
+
+    }
+
+    
+  </style>
+</head>
+
+<body>
+
+  <div class="bg-image"></div>
+  <!-- jagannath -->
+  <div class="bg-text">
+    <div class="left">
+      <img src="/img/mahabodhi.jpeg" alt="jagannath temple">
+    </div>
+    <div class="write">
+      <h1>Mahabodhi Temple, Bodhgaya</h1>
+    </div>
+    <div class="para">
+      <p>The Mahabodhi Temple (literally: "Great Awakening Temple") or the Mahābodhi Mahāvihāra, a UNESCO World Heritage Site, is an ancient, but rebuilt and restored Buddhist temple in Bodh Gaya, Bihar, India, marking the location where the Buddha is said to have attained enlightenment.</p>
+      <button class="btn"><a href="mahabodhi.html">More</a></button>
+      <button><a href="map.html">Map</a></button>
+    </div>
+  </div>
+
+  <!-- taratarini -->
+  <div class="bg2"></div>
+  <div class="taratarini">
+    <div class="left">
+      <img src="/img/vishnupad.jpeg" alt="taratarini">
+    </div>
+    <div class="write">
+      <h1>Vishnupad Mandir</h1>
+    </div>
+    <div class="para">
+      <p>The construction date of temple is unknown and it is believed that Rama along with Sita had visited this place. The present day structure was rebuilt by Devi Ahilya Bai Holkar, the ruler of Indore, in 1787, on the banks of the Falgu river.[8] Ahilyabai Holkar had crafted the temple, sent her officers to inspect and find the best stone for the temple in whole region,  </p>
+      <button><a href="vishnupad.html">More</a></button>
+    </div>
+  </div>
+
+  <!-- lingaraj -->
+  <div class="bg3"></div>
+  <div class="lingaraj">
+    <div class="left">
+      <img src="/img/mangalagauri.jpg" alt="lingaraj">
+    </div>
+    <div class="write">
+      <h1>Mangala Gowri Temple</h1>
+    </div>
+    <div class="para">
+      <p>The Mangla Gauri temple (Hindi: मां मंगलागौरी मंदिर) in Shakti Peetham, Gaya, Bihar, India has been mentioned in Padma Purana, Vayu Purana and Agni Purana and Devi Bhagvata Purana and Markandeya Purana in other scriptures and tantric works. This temple is among the eighteen maha shaktipeeth. The present temple dates back to the 15th century. The shrine is dedicated to Sati or the Mother Goddess in the predominantly Vaishnavite pilgrimage center of Gaya. Mangalagauri is worshiped as the Goddess of benevolence.
+      </p>
+      <button><a href="mangalagowri.html">More</a></button>
+    </div>
+  </div>
+  <!-- Konark -->
+  <div class="bg4"></div>
+  <div class="konark">
+    <div class="left">
+      <img src="/img/jalmandir.jpeg" alt="konark">
+    </div>
+    <div class="write">
+      <h1>Jal Mandir</h1>
+    </div>
+    <div class="para">
+      <p>Mahavira was a prince of the Magadha Kingdom then known as "Madyama Pawa" or "Apawapuri",[4] and became an ascetic at the age of 30. During one of the religious observances, called the chaturmas observed by Jains for four months during the rainy season starting from the beginning of the month of Āṣārh (22 June to 22 July) and ending in the month of Kartik (October/November),</p>
+      <button><a href="jalmandir.html">More</a></button>
+    </div>
+  </div>
+
+  <!-- Ghatatarini -->
+  <div class="bg5"></div>
+  <div class="ghatatarini">
+    <div class="left">
+      <img src="/img/mithilasaktipeetha.jpeg" alt="ghatatarini">
+    </div>
+    <div class="write">
+      <h1>Mithila Shakti Peeth</h1>
+    </div>
+    <div class="para">
+      <p>Coming Soon</p>
+      <button><a href="#">More</a></button>
+    </div>
+  </div>
+
+</body>
+
+</html>

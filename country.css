@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    background-color: #1e6fb6;
+}
+
+.temple {
+
+    padding: 5px;
+    padding-left: 77px;
+    padding-right: 55px;
+    width: 1400px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 30px;
+    font-family: serif;
+    text-align: center;
+}
+
+.mandir ul {
+    display: flex;
+}
+
+.mandir ul li {
+    display: flex;
+    width: 30px;
+    margin: 55px;
+    padding: 30px;
+}
+
+.mandir ul li span img {
+    width: 120px;
+    height: 90px;
+    border-radius: 10px;
+}
+
+.country ul {
+    display: flex;
+}
+
+.country ul li {
+    width: 30px;
+    margin: 55px;
+    margin-top: 0.7px;
+    padding: 30px;
+}
+
+.country ul li span img {
+    width: 120px;
+    height: 90px;
+    border-radius: 10px;
+}
+
+.ind {
+    height: 30px;
+    width: 60px;
+    margin-left: 30px;
+    margin-top: 15px;
+    border: 2px solid red;
+    border-radius: 3px;
+    border-style: double;
+    color: blue;
+    cursor: pointer;
+
+
+}
+
+.ind:hover {
+    color: rgb(168, 71, 71);
+}
+
+.pak {
+    height: 30px;
+    width: 60px;
+    margin-left: 30px;
+    margin-top: 15px;
+    border: 2px solid red;
+    border-radius: 3px;
+    border-style: double;
+    color: blue;
+    cursor: pointer;
+}
+.pak:hover{
+    color: rgb(175, 37, 37);
+}
+.dubai{
+    height: 30px;
+    width: 60px;
+    margin-left: 30px;
+    margin-top: 15px;
+    border: 2px solid red;
+    border-radius: 3px;
+    border-style: double;
+    color: blue;
+    cursor: pointer;
+}
+.dubai:hover{
+    color: rgb(175, 37, 37);
+}
+.england{
+    height: 30px;
+    width: 60px;
+    margin-left: 30px;
+    margin-top: 15px;
+    border: 2px solid red;
+    border-radius: 3px;
+    border-style: double;
+    color: blue;
+    cursor: pointer;
+}
+.england:hover{
+    color: rgb(175, 37, 37);
+}
+.africa{
+    height: 30px;
+    width: 60px;
+    margin-left: 30px;
+    margin-top: 15px;
+    border: 2px solid red;
+    border-radius: 3px;
+    border-style: double;
+    color: blue;
+    cursor: pointer;
+}
+.africa:hover{
+    color: rgb(175, 37, 37);
+}
+.aus{
+    height: 30px;
+    width: 60px;
+    margin-left: 30px;
+    margin-top: 15px;
+    border: 2px solid red;
+    border-radius: 3px;
+    border-style: double;
+    color: blue;
+    cursor: pointer; 
+}
+.aus:hover{
+    color: rgb(175, 37, 37);
+}
+.china{
+    height: 30px;
+    width: 60px;
+    margin-left: 30px;
+    margin-top: 15px;
+    border: 2px solid red;
+    border-radius: 3px;
+    border-style: double;
+    color: blue;
+    cursor: pointer;
+}
+.china:hover{
+    color: rgb(175, 37, 37);
+}
+.brazil{
+    height: 30px;
+    width: 60px;
+    margin-left: 30px;
+    margin-top: 15px;
+    border: 2px solid red;
+    border-radius: 3px;
+    border-style: double;
+    color: blue;
+    cursor: pointer;
+}
+.brazil:hover{
+    color: rgb(175, 37, 37);
+}
+.cambodia{
+    height: 30px;
+    width: 69px;
+    margin-left: 30px;
+    margin-top: 15px;
+    border: 2px solid red;
+    border-radius: 3px;
+    border-style: double;
+    color: blue;
+    cursor: pointer;
+}
+.cambodia:hover{
+    color: rgb(175, 37, 37);
+}
+.colombia{
+    height: 30px;
+    width: 65px;
+    margin-left: 30px;
+    margin-top: 15px;
+    border: 2px solid red;
+    border-radius: 3px;
+    border-style: double;
+    color: blue;
+    cursor: pointer;
+}
+.colombia:hover{
+    color: rgb(175, 37, 37);
+}
+.france{
+    height: 30px;
+    width: 60px;
+    margin-left: 30px;
+    margin-top: 15px;
+    border: 2px solid red;
+    border-radius: 3px;
+    border-style: double;
+    color: blue;
+    cursor: pointer;
+}
+.france:hover{
+    color: rgb(175, 37, 37);
+}
+.germany{
+    height: 30px;
+    width: 60px;
+    margin-left: 30px;
+    margin-top: 15px;
+    border: 2px solid red;
+    border-radius: 3px;
+    border-style: double;
+    color: blue;
+    cursor: pointer;
+}
+.germany:hover{
+    color: rgb(175, 37, 37);
+}
+.afganistan{
+    height: 30px;
+    width: 69px;
+    margin-left: 30px;
+    margin-top: 15px;
+    border: 2px solid red;
+    border-radius: 3px;
+    border-style: double;
+    color: blue;
+    cursor: pointer;
+}
+.afganistan:hover{
+    color: rgb(175, 37, 37);
+}
+.argentina{
+    height: 30px;
+    width: 65px;
+    margin-left: 30px;
+    margin-top: 15px;
+    border: 2px solid red;
+    border-radius: 3px;
+    border-style: double;
+    color: blue;
+    cursor: pointer;
+}
+.argentina:hover{
+    color: rgb(175, 37, 37);
+}

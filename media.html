@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: tomato;
+        }
+        .image{
+            background-color: aqua;
+        }
+        .image .head{
+            text-align: center;
+            color: black;
+        }
+        @media only screen and (max-width:400px) {
+            body{
+                background-color: purple;
+            }
+            .image .head{
+                color: tomato;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="image">
+        <div class="head">
+            <h1>This is heading</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed voluptates neque magni necessitatibus, error eius pariatur? Ea culpa earum dignissimos exercitationem distinctio quas ab? Adipisci culpa aliquam optio vel dignissimos!</p>
+        </div>
+    </div>
+</body>
+</html>
